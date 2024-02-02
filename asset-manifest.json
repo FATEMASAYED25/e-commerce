@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/currency-exchanger/static/css/main.39e09a73.css",
+    "main.js": "/currency-exchanger/static/js/main.77b43f9e.js",
+    "service-worker.js": "/currency-exchanger/service-worker.js",
+    "index.html": "/currency-exchanger/index.html",
+    "main.39e09a73.css.map": "/currency-exchanger/static/css/main.39e09a73.css.map",
+    "main.77b43f9e.js.map": "/currency-exchanger/static/js/main.77b43f9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39e09a73.css",
+    "static/js/main.77b43f9e.js"
+  ]
+}

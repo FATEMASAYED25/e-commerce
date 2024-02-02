@@ -1,0 +1,32 @@
+{
+  "short_name": "currency exchanger",
+  "name": "currency exchanger",
+   "description": "Convert 160 currencies easily.",
+   "prefer_related_applications":true,
+  "icons": [
+  
+    {
+      "src":"../src/component/imges/exchange.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+  },
+  {
+    "src": "../src/component/imges/exchange3.png",
+    "type": "image/png",
+    "sizes": "144x144",
+    "purpose": "any"
+},
+{
+  "src": "../src/component/imges/exchange4.png",
+  "sizes": "196x196",
+  "type": "image/png",
+  "purpose": "maskable"
+}
+  
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
