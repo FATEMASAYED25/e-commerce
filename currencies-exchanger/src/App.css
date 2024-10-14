@@ -1,0 +1,139 @@
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;/*to treat float style in various dives*/
+  margin: 0;
+}
+
+nav{
+  background:#a5c7ea;
+  max-height:85px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bolder;
+  text-transform: capitalize;
+  user-select: none;
+}
+button{
+  background-color: #a5c7ea;
+  color: #000;
+  font-weight:bolder;
+}
+button:hover{
+  color: black;
+  border-radius: 5px;
+  box-shadow:  0 0 3px  #004aad,
+               0 0 3px #004aad;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav .logo{
+  float: left;
+width:180px;
+height: 80px;
+  padding-left: 50px;
+}
+nav .logo img{
+ 
+  height: 100%;
+}
+#download{
+  float: right;
+  margin: 15px 15px 0 0;
+text-align: center;
+width: 7rem;
+height: 2rem;
+}
+
+.padding{
+  padding: 8px 15px;
+}
+
+
+
+.exchanger{
+  display:flex;
+}
+.div1, .div2 ,.div3 {
+  flex: 1;
+ margin-bottom: 20px;
+}
+
+
+.process-container{
+  display: flex;
+}
+.child {
+    display: flex;
+    flex: 1;
+  margin: 10px; /* Optional: Adding padding for visibility */
+  }
+
+  .important{
+    display: block;
+  }
+
+  .result-container{
+    display: flex;
+    
+  }
+
+  .container1{
+    border: 1px solid #000;
+  }
+  .results{
+    flex:1;
+  }
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.details-page{
+ display: flex;
+  margin:0 10px;
+}
+
+
+@media all and (max-width: 968px) {
+
+  nav .logo{
+   padding-left: 20px;
+  width: 140px;
+  }
+ 
+
+
+  .icon{
+    display: block;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 25px;
+    transform: scaleX(1.5);
+   
+  }
+  .details-page{
+  display: block;
+  }
+ 
+ 
+ 
+ 
+  .process-container{
+    display: block;
+  }
+  .last{
+    display: block;
+  }
+ 
+
+}
+
